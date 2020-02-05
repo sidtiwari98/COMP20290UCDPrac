@@ -23,7 +23,7 @@ public class RussianMultiplyPrac1 {
         System.out.println("Enter another integer: ");
         int num2 = input.nextInt();
         RussianMultiplyPrac1 multiply = new RussianMultiplyPrac1();
-        System.out.println("The answer is: " + multiply.russianMulitply(num1, num2));
+        System.out.println("The product is: " + multiply.russianMulitply(num1, num2));
 
     }
 
