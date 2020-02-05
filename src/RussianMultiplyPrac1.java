@@ -17,6 +17,7 @@ public class RussianMultiplyPrac1 {
 
 
     public static void main(String[] args) {
+        final long startTime = System.currentTimeMillis();
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int num1 = input.nextInt();
@@ -24,6 +25,8 @@ public class RussianMultiplyPrac1 {
         int num2 = input.nextInt();
         RussianMultiplyPrac1 multiply = new RussianMultiplyPrac1();
         System.out.println("The product is: " + multiply.russianMulitply(num1, num2));
+        final long elapsedTime = System.currentTimeMillis() - startTime;
+        System.out.println("the time taken " + elapsedTime);
 
     }
 
