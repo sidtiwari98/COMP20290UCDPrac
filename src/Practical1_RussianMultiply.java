@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RussianMultiplyPrac1 {
+public class Practical1_RussianMultiply {
     private int russianMulitply(int num1, int num2){
 
         int accumulator = 0;
@@ -23,7 +23,7 @@ public class RussianMultiplyPrac1 {
         int num1 = input.nextInt();
         System.out.println("Enter another integer: ");
         int num2 = input.nextInt();
-        RussianMultiplyPrac1 multiply = new RussianMultiplyPrac1();
+        Practical1_RussianMultiply multiply = new Practical1_RussianMultiply();
         System.out.println("The product is: " + multiply.russianMulitply(num1, num2));
         final long elapsedTime = System.currentTimeMillis() - startTime;
         System.out.println("the time taken " + elapsedTime);
